@@ -14,7 +14,10 @@ const Home = () => {
                 </p>
                 <button className="btn btn-darken btn-inline bg-white-box">Get Started<FaLongArrowAltRight/></button>
             </div> 
-            <div className="hero-image"></div>
+            <div className="hero-image">
+                <img src="/images/world.png" alt="world image" className="banner-image"/>
+                <h2>test</h2>
+            </div>
            </div>
         </main>
     )
