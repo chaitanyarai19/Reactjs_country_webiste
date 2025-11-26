@@ -4,7 +4,8 @@ const Footer = () => {
     return(
         <>
             <footer>
-                <p>© 2024 MyWebsite. All rights reserved.</p>
+                <div className="container grid grid-three-cols">
+                </div>
             </footer>
         </>
     )
