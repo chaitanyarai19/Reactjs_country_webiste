@@ -1,7 +1,7 @@
 import { MdPlace } from "react-icons/md";
 import footerApi from "../../api/footerApi.json";
 import { TbMailPlus } from "react-icons/tb";
-import { IoCallsharp } from "react-icons/io5";
+
 
 const Footer = () => {
     const footerIcon = {
