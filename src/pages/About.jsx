@@ -17,8 +17,6 @@ const About = () => {
                                 <span className="card-description">Population:</span> 1,393,409,038<br/>
                                 <span className="card-description">Interesting Fact:</span> India is the world's largest democracy, with over 1.3 billion people.
                                 
-                            
-
                             </p>
                         </div>
                     </div>
