@@ -20,6 +20,10 @@ const Headers = () => {
                                 <li><NavLink to="/Contact">Contact</NavLink></li>
                             </ul>
                         </nav>
+
+                        <div className="ham-menu">
+                            
+                        </div>
                     </div>
 
                 </div>
