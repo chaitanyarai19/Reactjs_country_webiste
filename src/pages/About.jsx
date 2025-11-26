@@ -7,10 +7,10 @@ const About = () => {
             <section className="section-about container">
                 <h2 className="container-title">
                 Here are the details about our World Atlas website.
-                </h2>
+                
                 <br/>
                 We're Proud to Present Our Comprehensive World Atlas Website!
-
+                </h2>
                 <div className="gradient-cards">
                     {countryData.map((country) => {
                         return(
