@@ -4,6 +4,7 @@ const Contact = () => {
     const handleFormSubmit = (formData) => {
 
         const formInputData = Object.fromEntries(formData.entries());
+        console.log(formInputData);
     }
     return(
         <>
