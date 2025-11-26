@@ -5,7 +5,7 @@ import { TbMailPlus } from "react-icons/tb";
 
 import { NavLink } from "react-router-dom";
 
-const Footers = () => {
+const Footer = () => {
   const footerIcon = {
     MdPlace: <MdPlace />,
     IoCallSharp: <IoCallSharp />,
@@ -75,4 +75,4 @@ const Footers = () => {
   );
 };
 
-export default Footers;
+export default Footer;
