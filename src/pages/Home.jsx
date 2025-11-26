@@ -3,8 +3,10 @@ import About from "./pages/About";
 
 const Home = () => {
     return(
+        <>
         <HeroSection/>
         <About/>
+        </>
     )
 }
 
