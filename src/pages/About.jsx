@@ -6,7 +6,7 @@ const About = () => {
         <>
             <section className="section-about container">
                 <h2 className="container-title">
-                Here are the details about our World Atlas website.
+                Here are the Interesting Facts
                 
                 <br/>
                 We're Proud to Present Our Comprehensive World Atlas Website!
