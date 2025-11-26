@@ -1,5 +1,4 @@
-import React from "react";
-
+import countryData from "../../api/countryData.json";
 
 const HeroSection = () => {
     return(
