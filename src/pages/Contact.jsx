@@ -10,7 +10,7 @@ const Contact = () => {
                 <form action="">
                     <input className="form-control" type="text" name="name" placeholder="Your Name" autoComplete="false" required/>
                     <input className="form-control" type="email" name="email" placeholder="Your Email" autoComplete="false" required/>
-                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <textarea className="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
                     <button type="submit" className="btn btn-darken btn-inline bg-blue-box">Send Message</button>
                 </form>
             </section>
