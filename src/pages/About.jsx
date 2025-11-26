@@ -1,4 +1,5 @@
 import React from "react";
+import countryData from "../api/countryData.json";
 
 const About = () => {
     return(
@@ -9,17 +10,21 @@ const About = () => {
                 We're dedicated to making geographical knowledge accessible and engaging for everyone.
 
                 <div className="gradient-cards">
-                    <div className="card">
-                        <div className="container-card bg-blue-box">
-                            <p className="card-title">India</p>
-                            <p>
-                                <span className="card-description">Capital:</span> New Delhi<br/>
-                                <span className="card-description">Population:</span> 1,393,409,038<br/>
-                                <span className="card-description">Interesting Fact:</span> India is the world's largest democracy, with over 1.3 billion people.
-                                
-                            </p>
-                        </div>
-                    </div>
+                    {countryData.map((country) => {
+                        return(
+                            <div className="card" key={country.id}>
+                                <div className="container-card bg-blue-box">
+                                    <p className="card-title">{country.countryName}</p>
+                                    <p>
+                                        <span className="card-description">Capital:</span> {country.capital}<br/>
+                                        <span className="card-description">Population:</span> {country.population.toLocaleString()}<br/>
+                                        <span className="card-description">Interesting Fact:</span> {country.interestingFact}
+                                    </p>
+                                </div>
+                            </div>
+                        )
+                    })}
+\
                 </div>
             </section>
         </>
