@@ -1,6 +1,8 @@
 import React from "react";
 
 const Contact = () => {
+    const handleFormSubmit = (formData) => {
+        console.log(formData.entries());
     return(
         <>
             <section className="section-contact container">
