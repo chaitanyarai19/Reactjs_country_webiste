@@ -1,5 +1,5 @@
 import HeroSection from "../Components/UI/HeroSection";
-import About from "./pages/About";
+import About from "./About";
 
 const Home = () => {
     return(
