@@ -1,4 +1,4 @@
-import countryData from "../../api/countryData.json";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HeroSection = () => {
     return(
