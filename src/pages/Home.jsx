@@ -1,8 +1,8 @@
-import React from "react";
+import HeroSection from "../Components/UI/HeroSection";
 
 const Home = () => {
     return(
-
+        <HeroSection/>
     )
 }
 
