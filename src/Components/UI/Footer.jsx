@@ -11,8 +11,8 @@ const Footer = () => {
                                 <div className="footer-contact" key={index}>
                                     <div className="icon">{footer.icon}</div>
                                     <div className="footer-contact-text">
-                                        <h3 className="footer-title">{footer.title}</h3>
-                                        <p className="footer-subtitle">{footer.subTitle}</p>
+                                        <p>{footer.title}</p>
+                                        <p>{footer.subTitle}</p>
                                     </div>
                                 </div>
                             )
