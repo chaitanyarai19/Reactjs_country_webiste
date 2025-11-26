@@ -12,7 +12,7 @@ const Headers = () => {
                             <h1>World Atlas</h1>
                         </div>
  
-                        <nav className={show ? "menu-mobile" : "menu-web"}>
+                        <nav>
                             <ul>
                                 <li><NavLink to="/">Home</NavLink></li>
                                 <li><NavLink to="/about">About</NavLink></li>
@@ -22,7 +22,7 @@ const Headers = () => {
                         </nav>
 
                         <div className="ham-menu">
-                            
+
                         </div>
                     </div>
 
