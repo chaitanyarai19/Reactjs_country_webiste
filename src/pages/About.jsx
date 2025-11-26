@@ -10,12 +10,13 @@ const About = () => {
 
                 <div className="gradient-cards">
                     <div className="card">
-                        <div className="container bg-blue-box">
+                        <div className="container-card bg-blue-box">
                             <p className="card-title">India</p>
                             <p>
                                 <span className="card-description">Capital:</span> New Delhi<br/>
                                 <span className="card-description">Population:</span> 1,393,409,038<br/>
                                 <span className="card-description">Interesting Fact:</span> India is the world's largest democracy, with over 1.3 billion people.
+                                
                             
 
                             </p>
