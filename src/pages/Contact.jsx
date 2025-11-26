@@ -8,7 +8,7 @@ const Contact = () => {
                 Get in Touch with Us
                 </h2>
                 <div className="contact-wrapper container">
-                <form action="">
+                <form action={handleFormSubmit}>
                     <input className="form-control" type="text" name="name" placeholder="Your Name" autoComplete="false" required/>
                     <input className="form-control" type="email" name="email" placeholder="Your Email" autoComplete="false" required/>
                     <textarea className="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
