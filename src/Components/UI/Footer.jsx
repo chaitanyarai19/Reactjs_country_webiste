@@ -15,7 +15,7 @@ export const Footers = () => {
   return (
     <footer className="footer-section">
       <div className="container grid grid-three-cols">
-        {footerContact.map((curData, index) => {
+        {footerApi.map((curData, index) => {
           const { icon, title, details } = curData;
           return (
             <div className="footer-contact" key={index}>
