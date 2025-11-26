@@ -6,10 +6,10 @@ const About = () => {
         <>
             <section className="section-about container">
                 <h2 className="container-title">
-                Here are the details about our World Atlas website. We provide comprehensive information about countries around the globe, including maps, cultural insights, and interesting facts to help you explore and learn more about the world we live in.
+                Here are the details about our World Atlas website.
                 </h2>
                 <br/>
-                We're dedicated to making geographical knowledge accessible and engaging for everyone.
+                We're Proud to Present Our Comprehensive World Atlas Website!
 
                 <div className="gradient-cards">
                     {countryData.map((country) => {
