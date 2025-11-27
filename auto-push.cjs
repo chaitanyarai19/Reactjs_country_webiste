@@ -31,7 +31,7 @@ watcher.on("change", (path) => {
         return;
       }
 
-      const message = `${path} updated}`;
+      const message = `${path} updated`;
 
       exec(
         `git add . && git commit -m "${message}" && git push`,
