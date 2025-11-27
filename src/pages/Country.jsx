@@ -25,7 +25,7 @@ const Country = () => {
                         countires.map((country, index) => {
                             return(
                                 <li className="country-card card" key={index}>
-                                    <div className="country-flag">
+                                    <div className="container-card bg-white-box">
                                         <img src={country.flags.png} alt={country.name.common} />
                                     </div>
                                     <div className="country-info">
