@@ -30,13 +30,13 @@ const Country = () => {
                                     </div>
                                     <div className="country-info">
                                         <h3 className="card-title">{country.name.common}</h3>
-                                        <p>
+                                        <p className="card-title">
                                             <strong>Capital:</strong> {country.capital ? country.capital[0] : "N/A"}
                                         </p>
-                                        <p>
+                                        <p className="card-title">
                                             <strong>Population:</strong> {country.population.toLocaleString()}
                                         </p>
-                                        <p>
+                                        <p className="card-title">
                                             <strong>Region:</strong> {country.region}
                                         </p>
                                     </div>
