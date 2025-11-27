@@ -5,8 +5,9 @@ const Country = () => {
     const [isPending, startTransition] = useTransition();
 
     useEffect(() => {
-       startTransition(() => {
-            getCountryData();
+       startTransition(async() => {
+            const res = await getCountryData();
+            console.log(res.data);
        });
        
     }, []);
