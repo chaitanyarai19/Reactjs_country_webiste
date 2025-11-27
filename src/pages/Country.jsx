@@ -30,8 +30,8 @@ const Country = () => {
                                    
                                     <div className="countryInfo">
                                         <h3 className="card-title">{country.name.common}</h3>
-                                        <p className="card-title">
-                                            Capital: {country.capital ? country.capital[0] : "N/A"}
+                                        <p>
+                                           <span className="card-description"> Capital: </span>{country.capital ? country.capital[0] : "N/A"}
                                         </p>
                                         <p>
                                             <span className="card-description">Population:</span> {country.population.toLocaleString()}
