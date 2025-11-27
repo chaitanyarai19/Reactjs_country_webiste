@@ -15,7 +15,7 @@ const Country = () => {
     }, []);
 
      if(isPending){
-            return <h1>Loading...</h1>;
+            return <h1><Loader/></h1>;
         }
     return(
         <>
