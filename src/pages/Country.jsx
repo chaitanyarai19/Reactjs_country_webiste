@@ -27,7 +27,7 @@ const Country = () => {
                                 <li className="country-card card" key={index}>
                                     <div className="container-card bg-white-box">
                                         <img src={country.flags.png} alt={country.name.common} />
-                                    </div>
+                                   
                                     <div className="country-info">
                                         <h3 className="card-title">{country.name.common}</h3>
                                         <p className="card-title">
@@ -40,6 +40,7 @@ const Country = () => {
                                             <strong>Region:</strong> {country.region}
                                         </p>
                                     </div>
+                                     </div>
                                 </li>
                             )
                         })
