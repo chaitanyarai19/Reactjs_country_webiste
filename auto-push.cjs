@@ -31,7 +31,7 @@ watcher.on("change", (path) => {
         return;
       }
 
-      const message = `auto commit - ${new Date().toLocaleString()}`;
+      const message = `${path} - ${new Date().toLocaleString()}`;
 
       exec(
         `git add . && git commit -m "${message}" && git push`,
