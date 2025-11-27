@@ -28,10 +28,10 @@ const Country = () => {
                                     <div className="container-card bg-white-box">
                                         <img src={country.flags.png} alt={country.name.common} />
                                    
-                                    <div className="country-info">
+                                    <div className="countryInfo">
                                         <h3 className="card-title">{country.name.common}</h3>
                                         <p className="card-title">
-                                            <strong>Capital:</strong> {country.capital ? country.capital[0] : "N/A"}
+                                            Capital: {country.capital ? country.capital[0] : "N/A"}
                                         </p>
                                         <p className="card-title">
                                             <strong>Population:</strong> {country.population.toLocaleString()}
