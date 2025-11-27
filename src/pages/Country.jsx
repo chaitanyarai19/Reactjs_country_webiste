@@ -29,7 +29,7 @@ const Country = () => {
                                         <img src={country.flags.png} alt={country.name.common} />
                                     </div>
                                     <div className="country-info">
-                                        <h3 className="country-name">{country.name.common}</h3>
+                                        <h3 className="card-title">{country.name.common}</h3>
                                         <p>
                                             <strong>Capital:</strong> {country.capital ? country.capital[0] : "N/A"}
                                         </p>
