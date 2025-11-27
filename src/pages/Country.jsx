@@ -29,7 +29,7 @@ const Country = () => {
                                         <img src={country.flags.png} alt={country.name.common} />
                                    
                                     <div className="countryInfo">
-                                        <h3 className="card-title">{country.name.common}</h3>
+                                        <h3 className="card-title">{country.name.length > 10 ? country.name.common.slice(0,10) + "..." : country.name.common}</h3>
                                         <p>
                                            <span className="card-description"> Capital: </span>{country.capital ? country.capital[0] : "N/A"}
                                         </p>
