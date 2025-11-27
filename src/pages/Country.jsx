@@ -1,9 +1,13 @@
 import { useEffect, useTransition } from "react";
+import { getCountryData } from "../api/postApi";
 
 const Country = () => {
     const [isPending, startTransition] = useTransition();
 
     useEffect(() => {
+       startTransition(() => {
+            getCountryData();
+       });
        
     }, []);
 
