@@ -2,6 +2,7 @@ import { MdPlace } from "react-icons/md";
 import footerApi from "../../api/footerApi.json";
 import { IoCallSharp } from "react-icons/io5";
 import { TbMailPlus } from "react-icons/tb";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     const footerIcon = {
