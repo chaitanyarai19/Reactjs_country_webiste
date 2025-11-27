@@ -17,7 +17,7 @@ const Footer = () => {
                         footerApi.map((footer, index) => {
                             return(
                                 <div className="footer-contact" key={index}>
-                                    <div className="icon">{footer.icon}</div>
+                                    <div className="icon">{footerIcon.icon}</div>
                                     <div className="footer-contact-text">
                                         <p>{footer.title}</p>
                                         <p>{footer.subTitle}</p>
